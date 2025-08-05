@@ -1,0 +1,90 @@
+MANUAL DOWNLOAD GUIDE FOR JAR DEPENDENCIES (Java 8 + Korean NLP)
+===============================================================
+
+This guide helps you manually download the required JAR files for the PDF AI Search System with Java 8 and Korean NLP support.
+
+REQUIREMENTS:
+- Java 8 (JDK 1.8) or higher
+- All dependencies are compatible with Java 8
+
+1. Create directory: target\lib\
+
+2. Download these files to target\lib\ directory:
+
+   a) PDFBox (PDF processing):
+      https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.29/pdfbox-2.0.29.jar
+
+   b) Lucene Core 8.11.2 (Search engine - Java 8 compatible):
+      https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/8.11.2/lucene-core-8.11.2.jar
+
+   c) Lucene Analyzers 8.11.2:
+      https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/8.11.2/lucene-analyzers-common-8.11.2.jar
+
+   d) Lucene Query Parser 8.11.2:
+      https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/8.11.2/lucene-queryparser-8.11.2.jar
+
+   e) KoalaNLP API (Korean NLP):
+      https://jitpack.io/kr/bydelta/koalanlp-api/2.1.4/koalanlp-api-2.1.4.jar
+
+   f) KoalaNLP KKMA (Korean morphological analyzer):
+      https://jitpack.io/kr/bydelta/koalanlp-kkma/2.1.4/koalanlp-kkma-2.1.4.jar
+
+   g) iText PDF (PDF generation):
+      https://repo1.maven.org/maven2/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar
+
+   h) Jackson Databind (JSON processing):
+      https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.7.1/jackson-databind-2.12.7.1.jar
+
+   i) Jackson Core:
+      https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.7/jackson-core-2.12.7.jar
+
+   j) Jackson Annotations:
+      https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.7/jackson-annotations-2.12.7.jar
+
+   k) SLF4J API (Logging):
+      https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+
+   l) Logback Classic (Logging):
+      https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar
+
+   m) Logback Core:
+      https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar
+
+   n) Commons Math (Math utilities):
+      https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar
+
+3. After downloading all files, run:
+   compile_manual.bat
+
+4. Test Korean NLP functionality:
+   test_korean_nlp.bat
+
+5. Generate sample PDF:
+   generate_pdf_manual.bat
+
+6. Run the application:
+   run_manual.bat
+
+WHAT'S NEW IN THIS VERSION:
+==========================
+- Java 8 compatibility (JDK 1.8)
+- Real Korean NLP using KoalaNLP
+- Automatic morphological analysis
+- Compound word splitting without hardcoding
+- Lucene 8.11.2 for better performance
+- Enhanced search capabilities
+
+ALTERNATIVE: Use IntelliJ IDEA
+=============================
+The easiest solution is to use IntelliJ IDEA:
+
+1. File → Settings → Build Tools → Maven
+2. Set "JDK for importer" to Java 8 or higher
+3. Right-click project → "Build Module 'pdf-ai-search'"
+4. Right-click PDFAISearchApp.java → "Run 'PDFAISearchApp.main()'"
+
+TROUBLESHOOTING:
+===============
+- If you get "ClassNotFoundException" for KoalaNLP, make sure you downloaded the Korean NLP JARs
+- If you get "UnsupportedClassVersionError", make sure you're using Java 8 or higher
+- If compilation fails, run: check_java.bat to verify Java version 

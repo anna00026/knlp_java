@@ -1,0 +1,181 @@
+2025-08-05 18:23:30.910 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - OpenNLP 8 Korean Processor initialized with OpenNLP 1.9.4 (Java 8 compatible)
+2025-08-05 18:23:30.912 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - === OpenNLP 8 Korean Processor Capabilities ===
+2025-08-05 18:23:30.912 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Real OpenNLP 1.9.4 tokenization (Java 8 compatible)
+2025-08-05 18:23:30.912 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Automatic compound word detection
+2025-08-05 18:23:30.913 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Intelligent morphological analysis
+2025-08-05 18:23:30.913 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Smart keyword extraction
+2025-08-05 18:23:30.913 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Context-aware scoring
+2025-08-05 18:23:30.913 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Scales automatically for large PDFs
+2025-08-05 18:23:30.913 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? No hardcoded word lists needed
+2025-08-05 18:23:30.913 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - 
+=== Auto Compound Detection Demo ===
+2025-08-05 18:23:30.914 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ???? ? [??, ??]
+2025-08-05 18:23:30.915 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ???? ? [??, ??]
+2025-08-05 18:23:30.915 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ???? ? [??, ??]
+2025-08-05 18:23:30.915 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ?????? ? [???, ???]
+2025-08-05 18:23:30.915 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ??????? ? [??, ?????, ??, ???]
+2025-08-05 18:23:30.916 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ???? ??? ?? ??? ??? ??????.
+2025-08-05 18:23:30.937 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ????? ????? ???? ??? ?????.
+2025-08-05 18:23:30.939 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ??????? ???? ?????? ?????.
+2025-08-05 18:34:39.741 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - OpenNLP 8 Korean Processor initialized with OpenNLP 1.9.4 (Java 8 compatible)
+2025-08-05 18:34:39.742 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - === OpenNLP 8 Korean Processor Capabilities ===
+2025-08-05 18:34:39.743 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Real OpenNLP 1.9.4 tokenization (Java 8 compatible)
+2025-08-05 18:34:39.743 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Automatic compound word detection
+2025-08-05 18:34:39.743 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Intelligent morphological analysis
+2025-08-05 18:34:39.743 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Smart keyword extraction
+2025-08-05 18:34:39.755 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Context-aware scoring
+2025-08-05 18:34:39.755 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? Scales automatically for large PDFs
+2025-08-05 18:34:39.755 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ? No hardcoded word lists needed
+2025-08-05 18:34:39.756 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - 
+=== Auto Compound Detection Demo ===
+2025-08-05 18:34:39.756 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ???? ? [??, ??]
+2025-08-05 18:34:39.757 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ???? ? [??, ??]
+2025-08-05 18:34:39.757 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ???? ? [??, ??]
+2025-08-05 18:34:39.757 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ?????? ? [???, ???]
+2025-08-05 18:34:39.758 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - ??????? ? [??, ?????, ??, ???]
+2025-08-05 18:34:39.758 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ???? ??? ?? ??? ??? ??????.
+2025-08-05 18:34:39.762 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ????? ????? ???? ??? ?????.
+2025-08-05 18:34:39.763 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ??????? ???? ?????? ?????.
+2025-08-05 18:39:03.842 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - OpenNLP 8 Korean Processor initialized with OpenNLP 1.9.4 (Java 8 compatible)
+2025-08-05 18:39:03.847 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ????
+2025-08-05 18:39:03.850 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ????
+2025-08-05 18:39:03.852 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ?? ??
+2025-08-05 18:39:03.853 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ?? ??
+2025-08-05 18:39:03.854 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ?? ??? ???
+2025-08-05 18:39:03.855 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ?? ??? ???
+2025-08-05 18:39:03.866 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ?? ??? ???
+2025-08-05 18:39:03.866 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ?? ??? ???
+2025-08-05 18:39:03.867 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ???? ??
+2025-08-05 18:39:03.868 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: ???? ??
+2025-08-05 18:43:13.676 [main] INFO  com.pdfnlp.util.SamplePDFGenerator - Sample PDF generated successfully: sample_korean_tech.pdf
+2025-08-05 18:43:39.719 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - OpenNLP 8 Korean Processor initialized with OpenNLP 1.9.4 (Java 8 compatible)
+2025-08-05 18:43:39.874 [main] ERROR c.p.service.SimplePDFSearchService - Error occurred during index initialization
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapDirectory@E:\Works\PDF_NLP\target\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1f2586d6: files: [write.lock]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:715)
+	at org.apache.lucene.index.StandardDirectoryReader.open(StandardDirectoryReader.java:84)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:64)
+	at com.pdfnlp.service.SimplePDFSearchService.refreshReader(SimplePDFSearchService.java:65)
+	at com.pdfnlp.service.SimplePDFSearchService.initializeIndex(SimplePDFSearchService.java:52)
+	at com.pdfnlp.service.SimplePDFSearchService.<init>(SimplePDFSearchService.java:34)
+	at com.pdfnlp.PDFAISearchApp.main(PDFAISearchApp.java:22)
+2025-08-05 18:44:06.078 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - OpenNLP 8 Korean Processor initialized with OpenNLP 1.9.4 (Java 8 compatible)
+2025-08-05 18:44:06.210 [main] ERROR c.p.service.SimplePDFSearchService - Error occurred during index initialization
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapDirectory@E:\Works\PDF_NLP\target\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@185a6e9: files: [write.lock]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:715)
+	at org.apache.lucene.index.StandardDirectoryReader.open(StandardDirectoryReader.java:84)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:64)
+	at com.pdfnlp.service.SimplePDFSearchService.refreshReader(SimplePDFSearchService.java:65)
+	at com.pdfnlp.service.SimplePDFSearchService.initializeIndex(SimplePDFSearchService.java:52)
+	at com.pdfnlp.service.SimplePDFSearchService.<init>(SimplePDFSearchService.java:34)
+	at com.pdfnlp.PDFAISearchApp.main(PDFAISearchApp.java:22)
+2025-08-05 18:47:36.812 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - OpenNLP 8 Korean Processor initialized with OpenNLP 1.9.4 (Java 8 compatible)
+2025-08-05 18:47:36.922 [main] INFO  c.p.service.SimplePDFSearchService - Index not found, will be created when first document is indexed
+2025-08-05 18:47:36.922 [main] INFO  c.p.service.SimplePDFSearchService - Index initialized: target/index
+2025-08-05 18:48:02.211 [main] INFO  c.p.service.SimplePDFSearchService - Starting PDF indexing: sample_korean_tech.pdf
+2025-08-05 18:48:02.661 [main] INFO  com.pdfnlp.service.PDFProcessor - Processing 5 pages from PDF file 'sample_korean_tech.pdf'.
+2025-08-05 18:48:05.177 [main] INFO  com.pdfnlp.service.PDFProcessor - Generated 5 chunks from PDF file 'sample_korean_tech.pdf'.
+2025-08-05 18:48:05.290 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: (Virtual Reality, VR)            .           .
+ 
+2025-08-05 18:48:05.387 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: :
+ 
+1.  (HMD)
+         .  VR   OLED  LCD     .
+2025-08-05 18:48:05.388 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: (AI)          .
+ 
+AI VR  :
+•  NPC: AI       
+•
+2025-08-05 18:48:05.388 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: :
+ 
+1.   
+   VR  ,    .        .
+ 
+2.   
+   
+2025-08-05 18:48:05.389 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: :
+ 
+1.   
+8K    HDR         .
+ 
+2.   
+   VR 
+2025-08-05 18:48:06.690 [main] INFO  c.p.service.SimplePDFSearchService - PDF indexing completed: sample_korean_tech.pdf (5 chunks)
+2025-08-05 18:48:26.964 [main] INFO  c.p.service.SimplePDFSearchService - Performing search: '현실' (max 10 results)
+2025-08-05 18:48:26.964 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: 현실
+2025-08-05 18:48:26.964 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: 현실
+2025-08-05 18:48:27.024 [main] ERROR c.p.service.SimplePDFSearchService - Query parsing error
+org.apache.lucene.queryparser.classic.ParseException: Cannot parse '(현실) OR (현실) OR (현실) OR (*현실*)': '*' or '?' not allowed as first character in WildcardQuery
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114)
+	at com.pdfnlp.service.SimplePDFSearchService.search(SimplePDFSearchService.java:157)
+	at com.pdfnlp.PDFAISearchApp.performSearch(PDFAISearchApp.java:91)
+	at com.pdfnlp.PDFAISearchApp.main(PDFAISearchApp.java:43)
+Caused by: org.apache.lucene.queryparser.classic.ParseException: '*' or '?' not allowed as first character in WildcardQuery
+	at org.apache.lucene.queryparser.classic.QueryParserBase.getWildcardQuery(QueryParserBase.java:698)
+	at org.apache.lucene.queryparser.classic.MultiFieldQueryParser.getWildcardQuery(MultiFieldQueryParser.java:245)
+	at org.apache.lucene.queryparser.classic.MultiFieldQueryParser.getWildcardQuery(MultiFieldQueryParser.java:241)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:818)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:469)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:355)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:244)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:359)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109)
+	... 3 common frames omitted
+2025-08-05 18:48:27.025 [main] ERROR com.pdfnlp.PDFAISearchApp - Error occurred during search
+java.io.IOException: Failed to parse search query
+	at com.pdfnlp.service.SimplePDFSearchService.search(SimplePDFSearchService.java:181)
+	at com.pdfnlp.PDFAISearchApp.performSearch(PDFAISearchApp.java:91)
+	at com.pdfnlp.PDFAISearchApp.main(PDFAISearchApp.java:43)
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '(현실) OR (현실) OR (현실) OR (*현실*)': '*' or '?' not allowed as first character in WildcardQuery
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114)
+	at com.pdfnlp.service.SimplePDFSearchService.search(SimplePDFSearchService.java:157)
+	... 2 common frames omitted
+Caused by: org.apache.lucene.queryparser.classic.ParseException: '*' or '?' not allowed as first character in WildcardQuery
+	at org.apache.lucene.queryparser.classic.QueryParserBase.getWildcardQuery(QueryParserBase.java:698)
+	at org.apache.lucene.queryparser.classic.MultiFieldQueryParser.getWildcardQuery(MultiFieldQueryParser.java:245)
+	at org.apache.lucene.queryparser.classic.MultiFieldQueryParser.getWildcardQuery(MultiFieldQueryParser.java:241)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:818)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:469)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:355)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:244)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:359)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109)
+	... 3 common frames omitted
+2025-08-05 18:51:17.239 [main] INFO  c.p.service.OpenNLP8KoreanProcessor - OpenNLP 8 Korean Processor initialized with OpenNLP 1.9.4 (Java 8 compatible)
+2025-08-05 18:51:17.414 [main] INFO  c.p.service.SimplePDFSearchService - Index initialized: target/index
+2025-08-05 18:51:41.556 [main] INFO  c.p.service.SimplePDFSearchService - Starting PDF indexing: test.pdf
+2025-08-05 18:51:41.667 [main] INFO  com.pdfnlp.service.PDFProcessor - Processing 5 pages from PDF file 'test.pdf'.
+2025-08-05 18:51:41.816 [main] INFO  com.pdfnlp.service.PDFProcessor - Generated 5 chunks from PDF file 'test.pdf'.
+2025-08-05 18:51:41.835 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: (Virtual Reality, VR)            .           .
+ 
+2025-08-05 18:51:41.866 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: :
+ 
+1.  (HMD)
+         .  VR   OLED  LCD     .
+2025-08-05 18:51:41.867 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: (AI)          .
+ 
+AI VR  :
+•  NPC: AI       
+•
+2025-08-05 18:51:41.868 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: :
+ 
+1.   
+   VR  ,    .        .
+ 
+2.   
+   
+2025-08-05 18:51:41.869 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: :
+ 
+1.   
+8K    HDR         .
+ 
+2.   
+   VR 
+2025-08-05 18:51:42.010 [main] INFO  c.p.service.SimplePDFSearchService - PDF indexing completed: test.pdf (5 chunks)
+2025-08-05 18:51:49.187 [main] INFO  c.p.service.SimplePDFSearchService - Performing search: '현실' (max 10 results)
+2025-08-05 18:51:49.189 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: 현실
+2025-08-05 18:51:49.189 [main] DEBUG c.p.service.OpenNLP8KoreanProcessor - Analyzing with OpenNLP + AI: 현실
+2025-08-05 18:51:49.272 [main] INFO  c.p.service.SimplePDFSearchService - Search completed: 0 results found
