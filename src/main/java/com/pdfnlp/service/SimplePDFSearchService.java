@@ -27,11 +27,11 @@ public class SimplePDFSearchService {
     private IndexWriter indexWriter;
     private IndexSearcher indexSearcher;
     private PDFProcessor pdfProcessor;
-    private OpenNLP8KoreanProcessor textAnalyzer;
+    private OpenNLP8TTTTProcessor textAnalyzer;
     
     public SimplePDFSearchService() throws IOException {
         this.pdfProcessor = new PDFProcessor();
-        this.textAnalyzer = new OpenNLP8KoreanProcessor();
+        this.textAnalyzer = new OpenNLP8TTTTProcessor();
         initializeIndex();
     }
     
@@ -105,7 +105,7 @@ public class SimplePDFSearchService {
         // Full text (for search)
         doc.add(new TextField("content", chunk.getContent(), Field.Store.YES));
         
-        // Korean processed text using OpenNLP
+        // TTTT processed text using OpenNLP
         String processedContent = textAnalyzer.analyzeText(chunk.getContent());
         doc.add(new TextField("processedContent", processedContent, Field.Store.NO));
         
@@ -126,7 +126,7 @@ public class SimplePDFSearchService {
         }
         
         try {
-            // Process query with Korean NLP
+            // Process query with TTTT NLP
             String processedQuery = textAnalyzer.analyzeText(query);
             List<String> keywords = textAnalyzer.extractKeywords(query);
             

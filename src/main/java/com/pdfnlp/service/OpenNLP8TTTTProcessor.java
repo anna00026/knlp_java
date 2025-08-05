@@ -9,46 +9,46 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 /**
- * OpenNLP Korean Processor for Java 8
- * Uses Apache OpenNLP 1.9.4 (Java 8 compatible) with intelligent Korean processing
+ * OpenNLP TTTT Processor for Java 8
+ * Uses Apache OpenNLP 1.9.4 (Java 8 compatible) with intelligent TTTT processing
  * Combines real NLP with smart algorithms for compound word detection
  */
-public class OpenNLP8KoreanProcessor {
-    private static final Logger logger = LoggerFactory.getLogger(OpenNLP8KoreanProcessor.class);
+public class OpenNLP8TTTTProcessor {
+    private static final Logger logger = LoggerFactory.getLogger(OpenNLP8TTTTProcessor.class);
     
     private final Tokenizer tokenizer;
-    private final Set<String> koreanStopWords;
-    private final Pattern koreanPattern;
+    private final Set<String> TTTTStopWords;
+    private final Pattern TTTTPattern;
     private final Pattern englishPattern;
     private final Pattern numberPattern;
     
-    // Essential Korean particles
-    private static final String[] KOREAN_PARTICLES = {
+    // Essential TTTT particles
+    private static final String[] TTTT_PARTICLES = {
         "이", "가", "을", "를", "에", "에서", "로", "으로", "와", "과", "의", "은", "는",
         "도", "만", "까지", "부터", "에게", "께", "한테", "보다", "처럼", "같이"
     };
     
-    // Korean stop words
-    private static final String[] KOREAN_STOP_WORDS = {
+    // TTTT stop words
+    private static final String[] TTTT_STOP_WORDS = {
         "그", "이", "저", "것", "수", "등", "들", "및", "또한", "그리고", "하지만", 
         "그러나", "따라서", "그래서", "즉", "또는", "혹은", "만약", "만일", "경우",
         "때문", "위해", "통해", "대해", "관해", "있다", "없다", "되다", "하다"
     };
     
-    public OpenNLP8KoreanProcessor() {
+    public OpenNLP8TTTTProcessor() {
         // Initialize OpenNLP 1.9.4 components (Java 8 compatible)
         this.tokenizer = SimpleTokenizer.INSTANCE;
         
         // Initialize patterns
-        this.koreanPattern = Pattern.compile("[가-힣]+");
+        this.TTTTPattern = Pattern.compile("[가-힣]+");
         this.englishPattern = Pattern.compile("[a-zA-Z]+");
         this.numberPattern = Pattern.compile("\\d+");
         
         // Initialize stop words
-        this.koreanStopWords = new HashSet<String>();
-        Collections.addAll(this.koreanStopWords, KOREAN_STOP_WORDS);
+        this.TTTTStopWords = new HashSet<String>();
+        Collections.addAll(this.TTTTStopWords, TTTT_STOP_WORDS);
         
-        logger.info("OpenNLP 8 Korean Processor initialized with OpenNLP 1.9.4 (Java 8 compatible)");
+        logger.info("OpenNLP 8 TTTT Processor initialized with OpenNLP 1.9.4 (Java 8 compatible)");
     }
     
     /**
@@ -67,12 +67,12 @@ public class OpenNLP8KoreanProcessor {
         // Step 2: OpenNLP tokenization
         String[] tokens = tokenizer.tokenize(processed);
         
-        // Step 3: Intelligent Korean analysis
+        // Step 3: Intelligent TTTT analysis
         List<String> analyzedTokens = new ArrayList<String>();
         for (String token : tokens) {
-            if (isKoreanText(token)) {
+            if (isTTTTText(token)) {
                 // Combine OpenNLP with intelligent morphological analysis
-                List<String> morphemes = intelligentKoreanAnalysis(token);
+                List<String> morphemes = intelligentTTTTAnalysis(token);
                 analyzedTokens.addAll(morphemes);
             } else {
                 analyzedTokens.add(token);
@@ -116,7 +116,7 @@ public class OpenNLP8KoreanProcessor {
     /**
      * Smart keyword normalization
      */
-    public List<String> normalizeKoreanKeywords(List<String> keywords) {
+    public List<String> normalizeTTTTKeywords(List<String> keywords) {
         Set<String> normalized = new HashSet<String>();
         
         for (String keyword : keywords) {
@@ -149,9 +149,9 @@ public class OpenNLP8KoreanProcessor {
     }
     
     /**
-     * Intelligent Korean analysis - auto-detects compound words
+     * Intelligent TTTT analysis - auto-detects compound words
      */
-    private List<String> intelligentKoreanAnalysis(String word) {
+    private List<String> intelligentTTTTAnalysis(String word) {
         List<String> morphemes = new ArrayList<String>();
         
         // Remove particles
@@ -192,7 +192,7 @@ public class OpenNLP8KoreanProcessor {
             
             // Check if both parts are meaningful
             if (part1.length() >= 2 && part2.length() >= 2) {
-                if (isValidKoreanWord(part1) && isValidKoreanWord(part2)) {
+                if (isValidTTTTWord(part1) && isValidTTTTWord(part2)) {
                     compounds.add(part1);
                     compounds.add(part2);
                     
@@ -210,14 +210,14 @@ public class OpenNLP8KoreanProcessor {
     }
     
     /**
-     * Check if Korean word part is valid
+     * Check if TTTT word part is valid
      */
-    private boolean isValidKoreanWord(String word) {
+    private boolean isValidTTTTWord(String word) {
         if (word.length() < 2) return false;
         if (isStopWord(word)) return false;
         if (isParticle(word)) return false;
         
-        // Korean morphology heuristics
+        // TTTT morphology heuristics
         String[] invalidEndings = {"의", "에", "를", "을", "가", "이", "는", "은"};
         for (String ending : invalidEndings) {
             if (word.endsWith(ending) && word.length() <= ending.length() + 1) {
@@ -254,8 +254,8 @@ public class OpenNLP8KoreanProcessor {
             if (term.length() >= 4) score *= 1.3;
             if (term.length() >= 5) score *= 1.2;
             
-            // Korean content bonus
-            if (isKoreanText(term)) score *= 1.3;
+            // TTTT content bonus
+            if (isTTTTText(term)) score *= 1.3;
             
             // Position bonus (early appearance = important)
             if (originalText.indexOf(term) < originalText.length() / 3) {
@@ -319,7 +319,7 @@ public class OpenNLP8KoreanProcessor {
     }
     
     private String removeParticles(String word) {
-        for (String particle : KOREAN_PARTICLES) {
+        for (String particle : TTTT_PARTICLES) {
             if (word.endsWith(particle) && word.length() > particle.length()) {
                 return word.substring(0, word.length() - particle.length());
             }
@@ -328,16 +328,16 @@ public class OpenNLP8KoreanProcessor {
     }
     
     // Helper methods
-    private boolean isKoreanText(String text) {
-        return koreanPattern.matcher(text).find();
+    private boolean isTTTTText(String text) {
+        return TTTTPattern.matcher(text).find();
     }
     
     private boolean isStopWord(String word) {
-        return koreanStopWords.contains(word);
+        return TTTTStopWords.contains(word);
     }
     
     private boolean isParticle(String word) {
-        for (String particle : KOREAN_PARTICLES) {
+        for (String particle : TTTT_PARTICLES) {
             if (word.equals(particle) || word.endsWith(particle)) {
                 return true;
             }
@@ -349,7 +349,7 @@ public class OpenNLP8KoreanProcessor {
      * Demonstrate capabilities
      */
     public void demonstrateCapabilities() {
-        logger.info("=== OpenNLP 8 Korean Processor Capabilities ===");
+        logger.info("=== OpenNLP 8 TTTT Processor Capabilities ===");
         logger.info("✓ Real OpenNLP 1.9.4 tokenization (Java 8 compatible)");
         logger.info("✓ Automatic compound word detection");
         logger.info("✓ Intelligent morphological analysis");

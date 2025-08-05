@@ -1,11 +1,11 @@
-# Korean PDF AI Search System
+# TTTT PDF AI Search System
 
-A Java-based AI search system for Korean PDF files using Apache OpenNLP for natural language processing.
+A Java-based AI search system for TTTT PDF files using Apache OpenNLP for natural language processing.
 
 ## Features
 
 - **100% Local Operation**: No cloud APIs required
-- **Korean NLP**: Real Apache OpenNLP 1.9.4 with intelligent Korean text analysis
+- **TTTT NLP**: Real Apache OpenNLP 1.9.4 with intelligent TTTT text analysis
 - **Automatic Compound Word Detection**: No hardcoded word lists needed
 - **PDF Text Extraction**: Extract and index text from PDF files
 - **Semantic Search**: AI-powered search with relevance scoring
@@ -21,7 +21,7 @@ A Java-based AI search system for Korean PDF files using Apache OpenNLP for natu
 
 - **PDF Processing**: Apache PDFBox 2.0.29
 - **Search Engine**: Apache Lucene 8.11.2
-- **Korean NLP**: Apache OpenNLP 1.9.4
+- **TTTT NLP**: Apache OpenNLP 1.9.4
 - **PDF Generation**: iText PDF 5.5.13.3
 - **Logging**: SLF4J + Logback
 
@@ -32,7 +32,7 @@ A Java-based AI search system for Korean PDF files using Apache OpenNLP for natu
 .\download_deps.bat
 ```
 
-### 2. Test Korean NLP System
+### 2. Test TTTT NLP System
 ```bash
 .\test.bat
 ```
@@ -61,7 +61,7 @@ PDF_NLP/
 │   ├── service/
 │   │   ├── PDFProcessor.java         # PDF text extraction
 │   │   ├── SimplePDFSearchService.java # Search service
-│   │   └── OpenNLP8KoreanProcessor.java # Korean NLP processor
+│   │   └── OpenNLP8TTTTProcessor.java # TTTT NLP processor
 │   └── util/
 │       └── SamplePDFGenerator.java   # Sample PDF creator
 ├── target/
@@ -70,7 +70,7 @@ PDF_NLP/
 ├── download_deps.bat/ps1             # Download dependencies
 ├── compile.bat                       # Compile project
 ├── run.bat                          # Run main application
-├── test.bat                         # Test Korean NLP
+├── test.bat                         # Test TTTT NLP
 └── README.md
 ```
 
@@ -85,14 +85,14 @@ Use option 2 to search indexed content. Examples:
 - "인공지능" (Artificial Intelligence)
 - "머신러닝" (Machine Learning)
 
-### 3. Korean Text Processing
+### 3. TTTT Text Processing
 The system automatically:
-- Tokenizes Korean text using OpenNLP
+- Tokenizes TTTT text using OpenNLP
 - Detects compound words (e.g., "가상현실" → "가상" + "현실")
 - Removes particles and stop words
 - Normalizes text for better search results
 
-## Korean NLP Capabilities
+## TTTT NLP Capabilities
 
 - **Real OpenNLP 1.9.4**: Professional tokenization
 - **Automatic Compound Detection**: No manual word lists
@@ -137,7 +137,7 @@ If Maven is not available, use the provided batch scripts:
 ```bash
 .\compile.bat    # Compile all sources
 .\run.bat        # Run application
-.\test.bat       # Test Korean NLP
+.\test.bat       # Test TTTT NLP
 ```
 
 ### Adding New Features

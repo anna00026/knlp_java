@@ -1,7 +1,7 @@
-MANUAL DOWNLOAD GUIDE FOR JAR DEPENDENCIES (Java 8 + Korean NLP)
+MANUAL DOWNLOAD GUIDE FOR JAR DEPENDENCIES (Java 8 + TTTT NLP)
 ===============================================================
 
-This guide helps you manually download the required JAR files for the PDF AI Search System with Java 8 and Korean NLP support.
+This guide helps you manually download the required JAR files for the PDF AI Search System with Java 8 and TTTT NLP support.
 
 REQUIREMENTS:
 - Java 8 (JDK 1.8) or higher
@@ -23,10 +23,10 @@ REQUIREMENTS:
    d) Lucene Query Parser 8.11.2:
       https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/8.11.2/lucene-queryparser-8.11.2.jar
 
-   e) KoalaNLP API (Korean NLP):
+   e) KoalaNLP API (TTTT NLP):
       https://jitpack.io/kr/bydelta/koalanlp-api/2.1.4/koalanlp-api-2.1.4.jar
 
-   f) KoalaNLP KKMA (Korean morphological analyzer):
+   f) KoalaNLP KKMA (TTTT morphological analyzer):
       https://jitpack.io/kr/bydelta/koalanlp-kkma/2.1.4/koalanlp-kkma-2.1.4.jar
 
    g) iText PDF (PDF generation):
@@ -56,8 +56,8 @@ REQUIREMENTS:
 3. After downloading all files, run:
    compile_manual.bat
 
-4. Test Korean NLP functionality:
-   test_korean_nlp.bat
+4. Test TTTT NLP functionality:
+   test_TTTT_nlp.bat
 
 5. Generate sample PDF:
    generate_pdf_manual.bat
@@ -68,7 +68,7 @@ REQUIREMENTS:
 WHAT'S NEW IN THIS VERSION:
 ==========================
 - Java 8 compatibility (JDK 1.8)
-- Real Korean NLP using KoalaNLP
+- Real TTTT NLP using KoalaNLP
 - Automatic morphological analysis
 - Compound word splitting without hardcoding
 - Lucene 8.11.2 for better performance
@@ -85,6 +85,6 @@ The easiest solution is to use IntelliJ IDEA:
 
 TROUBLESHOOTING:
 ===============
-- If you get "ClassNotFoundException" for KoalaNLP, make sure you downloaded the Korean NLP JARs
+- If you get "ClassNotFoundException" for KoalaNLP, make sure you downloaded the TTTT NLP JARs
 - If you get "UnsupportedClassVersionError", make sure you're using Java 8 or higher
 - If compilation fails, run: check_java.bat to verify Java version 

@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
 
     <name>PDF AI Search</name>
-    <description>Local AI search system for PDF files with Korean language support</description>
+    <description>Local AI search system for PDF files with TTT language support</description>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -51,7 +51,7 @@
             <version>8.11.2</version>
         </dependency>
 
-        <!-- Korean Text Processing with Apache OpenNLP (Java 8 Compatible) -->
+        <!-- TTT Text Processing with Apache OpenNLP (Java 8 Compatible) -->
         <dependency>
             <groupId>org.apache.opennlp</groupId>
             <artifactId>opennlp-tools</artifactId>

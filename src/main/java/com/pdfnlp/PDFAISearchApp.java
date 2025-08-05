@@ -14,7 +14,7 @@ public class PDFAISearchApp {
     private static final String INDEX_DIR = "pdf_index";
     
     public static void main(String[] args) {
-        System.out.println("=== PDF AI Search System (Korean Text Support) ===");
+        System.out.println("=== PDF AI Search System (TTTT Text Support) ===");
         System.out.println("Performing AI-based search in PDF files.");
         
         SimplePDFSearchService searchService;
