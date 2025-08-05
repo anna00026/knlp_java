@@ -32,7 +32,7 @@ set PATH=%JAVA_HOME%\bin;%PATH%
 REM Compile the project
 echo Compiling Java sources with Java 1.8...
 echo Using Java: %JAVA_HOME%
-javac -cp "target\lib\*" -d "target\classes" -source 1.8 -target 1.8 -encoding UTF-8 src\main\java\com\pdfnlp\*.java src\main\java\com\pdfnlp\model\*.java src\main\java\com\pdfnlp\service\*.java src\main\java\com\pdfnlp\util\*.java
+javac -cp "target\lib\*" -d "target\classes" -source 1.8 -target 1.8 -encoding UTF-8 src\main\java\com\pdfnlp\*.java src\main\java\com\pdfnlp\model\*.java src\main\java\com\pdfnlp\service\*.java
 
 if %ERRORLEVEL% NEQ 0 (
     echo Compilation failed!

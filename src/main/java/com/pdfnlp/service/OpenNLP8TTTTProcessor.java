@@ -345,27 +345,4 @@ public class OpenNLP8TTTTProcessor {
         return false;
     }
     
-    /**
-     * Demonstrate capabilities
-     */
-    public void demonstrateCapabilities() {
-        logger.info("=== OpenNLP 8 TTTT Processor Capabilities ===");
-        logger.info("✓ Real OpenNLP 1.9.4 tokenization (Java 8 compatible)");
-        logger.info("✓ Automatic compound word detection");
-        logger.info("✓ Intelligent morphological analysis");
-        logger.info("✓ Smart keyword extraction");
-        logger.info("✓ Context-aware scoring");
-        logger.info("✓ Scales automatically for large PDFs");
-        logger.info("✓ No hardcoded word lists needed");
-        
-        // Demo compound detection
-        String[] testWords = {"가상현실", "인공지능", "머신러닝", "데이터베이스", "클라우드컴퓨팅"};
-        logger.info("\n=== Auto Compound Detection Demo ===");
-        for (String word : testWords) {
-            List<String> compounds = autoDetectCompounds(word);
-            if (!compounds.isEmpty()) {
-                logger.info("{} → {}", word, compounds);
-            }
-        }
-    }
 } 

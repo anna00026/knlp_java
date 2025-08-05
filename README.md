@@ -81,14 +81,14 @@ Run the application and select option 1 to index PDF files.
 
 ### 2. Perform Searches
 Use option 2 to search indexed content. Examples:
-- "가상현실" (Virtual Reality)
-- "인공지능" (Artificial Intelligence)
-- "머신러닝" (Machine Learning)
+- "********" (Virtual Reality)
+- "********" (Artificial Intelligence)
+- "********" (Machine Learning)
 
 ### 3. TTTT Text Processing
 The system automatically:
 - Tokenizes TTTT text using OpenNLP
-- Detects compound words (e.g., "가상현실" → "가상" + "현실")
+- Detects compound words (e.g., "********" → "****1" + "****2")
 - Removes particles and stop words
 - Normalizes text for better search results
 
